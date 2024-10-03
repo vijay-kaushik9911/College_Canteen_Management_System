@@ -1,0 +1,131 @@
+.container-fluid {
+    display: flex;
+    width: 100vw; /* Stretch to full viewport width */
+    height: 100vh; /* Stretch to full viewport height (optional) */
+    overflow: auto;
+}
+.content_section {
+    flex: 1.5; /* Give more space to content section */
+    background-image: url("/images/coffee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; /* Centers the image */
+    color: white;
+    overflow: auto;
+}
+.login_section {
+    flex:1;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    display: flexbox;
+    overflow: auto;
+}
+.card 
+{
+    background-color: rgba(123, 123, 122, 0.202);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px; /* Increased max width for better responsiveness */
+    padding: 10px;
+    margin: auto; /* Center the card */
+    
+}
+.body
+{
+    background-color: rgb(27, 16, 6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(0,0,0,0.7);
+}
+.card-title
+{
+    font-family: "Luckiest Guy", cursive;
+    text-align: center;
+    text-decoration-color: rgb(21, 1, 1) ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 10cap;
+    font-size: x-large;
+}
+  .luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.mb-3
+{
+    font-family: "Mukta", sans-serif;
+    font-size: medium;
+}
+.playwrite-fr-trad{
+    font-family: "Playwrite FR Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .mukta-light {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+.p-1
+{
+    font-family: "Luckiest Guy", cursive;
+}
+a:hover {
+    text-decoration: underline;
+}
+.btn-success:hover {
+    background-color: #20080ac6;
+    border-color: #20080ac6;
+}
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #ff6f61, #ff4a3c);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+@media (max-width: 768px) {
+    .container-fluid {
+        flex-direction: column;
+    }
+
+    .content_section {
+        flex: 1;
+        height: auto;
+        padding: 10px;
+    }
+
+    .login_section {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .card {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
+
+
+  
+  
